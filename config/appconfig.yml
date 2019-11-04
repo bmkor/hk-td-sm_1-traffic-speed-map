@@ -1,0 +1,14 @@
+downloadconfig:
+  startyear: 2016
+  endyear: 2016
+  fileExt: "xml"
+  downloaddestination: "/data/trafficspeeddata"
+  qurl: "http://resource.data.one.gov.hk/td/speedmap.xml"
+  maxFileDescriptors: 100
+  titleForPushBullet: "Traffic Speed Data"
+  waittimeinsecond: 2
+  batchNumber: 5
+pbconfig:
+  pushbulletchanneltag: "YOUR PUSH BULLET CHANNEL"
+  pushbulletAPIKey: "YOUR PUSH BULLET API KEY"
+  pushbulletEnable: true
